@@ -1,0 +1,109 @@
+/*
+Theme Name: Twenty Sixteen Child salcode Talk
+Theme URI: https://salferrarello.com/postmeta
+Author: Sal Ferrarello
+Author URI: https://salferrarello.com/
+Template: twentysixteen
+Description: Demo Theme for displaying Post Meta Values.
+Version: 1.4.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentysixteen-child-salcode-talk
+*/
+
+/*******************************
+ ****** Subtitle Styling *******
+ *******************************/
+
+.entry-title + .fe-entry-subtitle {
+	margin-top: -1.5em;
+	margin-bottom: 1.05em;
+}
+
+@media screen and (min-width: 61.5625em) {
+	.entry-title + .fe-entry-subtitle {
+		margin-top: -2em;
+	}
+}
+
+/*******************************
+ ******** Button Styling *******
+ *******************************/
+
+/* Bootstrap Button Base Styles */
+.fe-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.fe-btn:focus,
+.fe-btn:active:focus,
+.fe-btn.active:focus,
+.fe-btn.focus,
+.fe-btn:active.focus,
+.fe-btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.fe-btn:hover,
+.fe-btn:focus,
+.fe-btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.fe-btn:active,
+.fe-btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+/* Bootstrap Button Primary Styles */
+.fe-btn {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.fe-btn:focus,
+.fe-btn-learn-more.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.fe-btn:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.fe-btn:active,
+.fe-btn-learn-more.active,
+.open > .dropdown-toggle.fe-btn-learn-more {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+/*******************************
+ ****** Title Colors *******
+ *******************************/
+
+.entry-header .entry-subtitle {
+	color: #1a1a1a;
+}
